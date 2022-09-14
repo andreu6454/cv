@@ -1,5 +1,5 @@
 .skillsBlock{
-    height: 100vh;
+    min-height: 100vh;
     background-color: cornflowerblue;
 }
 .title{
@@ -9,29 +9,34 @@
     color: black;
 }
 .container{
-    margin: 40px auto;
-    padding: 20px;
-    width: 80%;
-    height: 80%;
-    border: 1px solid black;
-    border-radius: 15px;
-}
-.line{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    width: 80%;
+    min-height: 80%;
+    border: 1px solid black;
+    border-radius: 15px;
+    flex-wrap: wrap;
 }
-.skill{
-    padding: 10px;
-    height: 80%;
-    width: 250px;
+.skillCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 10px;
+    min-height: max-content;
+    width: 300px;
     background-color: #3b3939;
     border-radius: 15px;
-}
-.skill h3{
-    margin-left: 50px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 .description{
     margin-left: 20px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: darkgrey;
 }

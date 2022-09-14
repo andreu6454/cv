@@ -3,26 +3,17 @@ import style from "./Skills.module.css";
 
 const SkillCard = () => {
     return (
-        <div className={style.skill}>
+        <div className={style.skillCard}>
+            <div className={style.icon}></div>
             <h3>React</h3>
             <div className={style.description}>
-            description:
-                <p>
+                <span>
                     xxxxxxxxxxxx
                     xxxxxxxxxxxx
                     xxxxxxxxxxxx
                     xxxxxxxxxxxx
                     xxxxxxxxxxxx
-                    xxxxxxxxxxxx
-                    xxxxxxxxxxxx
-                    xxxxxxxxxxxx
-                    xxxxxxxxxxxx
-                    xxxxxxxxxxxx
-                    xxxxxxxxxxxx
-                    xxxxxxxxxxxx
-                    xxxxxxxxxxxx
-                    xxxxxxxxxxxx
-                </p>
+                </span>
             </div>
         </div>
     );

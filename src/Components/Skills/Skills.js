@@ -9,16 +9,10 @@ const Skills = () => {
                 My skills
             </h2>
             <div className={style.container}>
-                <div className={style.line}>
-                    <SkillCard/>
-                    <SkillCard/>
-                    <SkillCard/>
-                </div>
-                <div className={style.line}>
-                    <SkillCard/>
-                    <SkillCard/>
-                    <SkillCard/>
-                </div>
+                <SkillCard/>
+                <SkillCard/>
+                <SkillCard/>
+                <SkillCard/>
             </div>
         </div>
     );
