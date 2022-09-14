@@ -5,9 +5,9 @@ import SkillCard from "./SkillCard";
 const Skills = () => {
     return (
         <div className={style.skillsBlock}>
-            <h2 className={style.title}>
+            <div className={style.title}>
                 My skills
-            </h2>
+            </div>
             <div className={style.container}>
                 <SkillCard/>
                 <SkillCard/>

@@ -1,12 +1,14 @@
 .skillsBlock{
     min-height: 100vh;
     background-color: cornflowerblue;
+    padding-top: 20px;
 }
 .title{
+    background-color: white;
     margin: auto;
-    padding-top: 20px;
-    width: 115px;
+    width: max-content;
     color: black;
+    font-size: 30px;
 }
 .container{
     display: flex;
@@ -14,7 +16,7 @@
     align-items: center;
     margin: 40px auto;
     padding: 20px;
-    width: 80%;
+    width: 60%;
     min-height: 80%;
     border: 1px solid black;
     border-radius: 15px;
@@ -26,14 +28,18 @@
     align-items: center;
     padding: 10px 10px 20px 10px;
     min-height: max-content;
-    width: 300px;
+    width: 250px;
     background-color: #3b3939;
     border-radius: 15px;
     text-align: center;
     margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.skillCard h3{
+    background-color: white;
 }
 .description{
-    margin-left: 20px;
+    background-color: darkslateblue;
 }
 .icon{
     width: 50px;
