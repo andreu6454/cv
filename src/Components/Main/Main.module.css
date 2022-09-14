@@ -1,0 +1,29 @@
+.mainBlock{
+    height: 100vh;
+    background-color: darkgrey;
+    display: flex;
+}
+.container{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 80%;
+    height: 99.5%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.description{
+    padding: 20px;
+    width: 300px;
+    background-color: #3b3939;
+    color: white;
+    border-radius: 15px;
+}
+.photo{
+    width: 300px;
+}
+.photo img{
+    width: 300px;
+    border-radius: 15px;
+}

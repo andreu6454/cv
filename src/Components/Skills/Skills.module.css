@@ -1,0 +1,37 @@
+.skillsBlock{
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+.title{
+    margin: auto;
+    padding-top: 20px;
+    width: 115px;
+    color: black;
+}
+.container{
+    margin: 40px auto;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.line{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+}
+.skill{
+    padding: 10px;
+    height: 80%;
+    width: 250px;
+    background-color: #3b3939;
+    border-radius: 15px;
+}
+.skill h3{
+    margin-left: 50px;
+}
+.description{
+    margin-left: 20px;
+}
