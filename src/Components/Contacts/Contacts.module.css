@@ -1,0 +1,50 @@
+.contacts{
+    min-height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.title{
+    font-size: 30px;
+    background-color: white;
+    width: max-content;
+}
+.container{
+    border: 1px solid black;
+    margin-top: 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px;
+    min-height: 80%;
+    margin-bottom: 20px;
+}
+.Input input{
+    width: 280px;
+    height: 30px;
+    background-color: #3b3939;
+    color: white;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 20px;
+}
+.TextArea textarea{
+    width: 280px;
+    height: 60px;
+    background-color: #3b3939;
+    color: white;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 20px;
+}
+.buttonBlock button{
+    padding: 10px 30px 10px 30px;
+    width: max-content;
+    background-color: #3b3939;
+    color: white;
+    border-radius: 15px;
+}
