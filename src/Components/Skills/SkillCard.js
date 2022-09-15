@@ -1,18 +1,14 @@
 import React from 'react';
 import style from "./Skills.module.css";
 
-const SkillCard = () => {
+const SkillCard = (props) => {
     return (
         <div className={style.skillCard}>
             <div className={style.icon}></div>
-            <h3>React</h3>
+            <h3>{props.title}</h3>
             <div className={style.description}>
                 <span>
-                    xxxxxxxxxxxx
-                    xxxxxxxxxxxx
-                    xxxxxxxxxxxx
-                    xxxxxxxxxxxx
-                    xxxxxxxxxxxx
+                    {props.description}
                 </span>
             </div>
         </div>

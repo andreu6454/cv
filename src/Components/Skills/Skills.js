@@ -9,10 +9,10 @@ const Skills = () => {
                 My skills
             </div>
             <div className={style.container}>
-                <SkillCard/>
-                <SkillCard/>
-                <SkillCard/>
-                <SkillCard/>
+                <SkillCard title={"React"} description={"xxxxxxxxxxxx\n xxxxxxxxxxxx\n xxxxxxxxxxxx\n xxxxxxxxxxxx\n xxxxxxxxxxxx "}/>
+                <SkillCard title={"HTML"} description={"xxxxxxxxxxxx\n xxxxxxxxxxxx\n xxxxxxxxxxxx\n xxxxxxxxxxxx\n xxxxxxxxxxxx"}/>
+                <SkillCard title={"CSS"} description={"xxxxxxxxxxxx\n xxxxxxxxxxxx\n xxxxxxxxxxxx\n xxxxxxxxxxxx\n xxxxxxxxxxxx"}/>
+                <SkillCard title={"Redux"} description={"xxxxxxxxxxxx\n xxxxxxxxxxxx\n xxxxxxxxxxxx\n xxxxxxxxxxxx\n xxxxxxxxxxxx"}/>
             </div>
         </div>
     );
