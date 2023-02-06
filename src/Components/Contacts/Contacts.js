@@ -5,14 +5,14 @@ const Contacts = () => {
     return (
         <div className={style.contacts}>
             <div className={style.title}>Contact me</div>
-            <div className={style.container}>
+            <form className={style.container}>
                 <div className={style.Input}><input defaultValue={"<Input>"}></input></div>
                 <div className={style.Input}><input defaultValue={"<Input>"}></input></div>
                 <div className={style.TextArea}><textarea defaultValue={"<Textarea>"}></textarea></div>
-            </div>
-            <div className={style.buttonBlock}><button> Send </button></div>
+            </form>
+            <div className={style.buttonBlock}><button type={"submit"}> Send </button></div>
         </div>
     );
 };
 
-export default Contacts;
+export default Contacts; 
