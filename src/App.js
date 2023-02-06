@@ -9,12 +9,16 @@ import Footer from "./Components/Footer/Footer";
 function App() {
     return (
         <div className="App">
-            <Header/>
-            <Main/>
-            <Skills/>
-            <Projects/>
-            <Contacts/>
-            <Footer/>
+            <div className={"header"}>
+                <Header/>
+            </div>
+            <div className={"mainInfo"}>
+                <Main/>
+                <Skills/>
+                <Projects/>
+                <Contacts/>
+                <Footer/>
+            </div>
         </div>
     );
 }

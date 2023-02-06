@@ -1,0 +1,18 @@
+body{
+    background-color: #0d1117;
+}
+.App{
+    display: flex;
+}
+.header{
+    min-width: 300px;
+}
+.mainInfo{
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .App{
+        flex-direction: column;
+    }
+}
