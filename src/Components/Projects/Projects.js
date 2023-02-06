@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import style from "./Projects.module.css"
 import ProjectCard from "./ProjectCard";
 
